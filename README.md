@@ -1,4 +1,4 @@
 Aqui tengo mi servidor web.
 
-Te dejo mi ip: httphttp://http://54.221.197.145/
+Te dejo mi ip: http://http://54.221.197.145/
 
