@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
 }
@@ -23,7 +24,7 @@ th {
 }
 
 /* Estilo para el receso */
-.RECREO {
+.receso {
     background-color: #e0e0e0;
     font-weight: bold;
 }
@@ -60,4 +61,5 @@ th {
 .SIINF {
     background-color: #ffa07a;
 }
+
 
