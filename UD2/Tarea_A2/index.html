@@ -4,6 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3.3: Cuerpo del Documento</title>
+    <style> 
+        /* Enlace normal y visitado (rojo y sin subrayado) */ 
+        a, a:visited { 
+            color: red; 
+            text-decoration: none; 
+            display: block; /* Hacer que cada enlace ocupe una línea completa */
+            margin: 10px 0; /* Añadir un margen entre enlaces */
+            padding: 5px;
+        } 
+
+        /* Cuando el cursor está encima (texto blanco y fondo rojo con subrayado) */ 
+        a:hover { 
+            color: white; 
+            background-color: red; 
+            text-decoration: underline; 
+        } 
+
+        /* Enlace activo (color naranja sin subrayado) */ 
+        a:active { 
+            color: orange; 
+            text-decoration: none; 
+        } 
+
+        /* Enlace enfocado (azul con subrayado al usar Tab) */ 
+        a:focus { 
+            color: blue; 
+            text-decoration: underline; 
+        } 
+
+        /* Estilos para la sección de navegación */
+        nav {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            max-width: 300px;
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body> 
 
@@ -13,15 +52,16 @@
         <h1>Cuerpo del Documento</h1>
     </header>
 
-    <!-- Sección de navegación -->
+    <!-- Sección de navegación mejorada -->
     <nav>
-            <a href="sobremi.html">Sobre mí</a>
-            <a href="listas.html">Listas</a>
-            <a href="tablas.html">tablas</a>
-            <a href="formulario_1.html">Formulario1</a>
-            <a href="pilares_web.html">Pilares_Web</a>
-
-
+        <a href="sobremi.html">Sobre mí</a>
+        <a href="listas.html">Listas</a>
+        <a href="tablas.html">Tablas</a>
+        <a href="Formulario_1.html">Formulario 1</a>
+        <a href="pilares_web.html">Pilares Web</a>
+        <a href="ldm_en_la_web.pdf">Lenguaje de marcas en la web (PDF)</a>
+        <a href="tarea_i.html">HTML Y CSS (i)</a>
+        <a href="tarea_ii.html">HTML y CSS (ii)</a>
     </nav>
 
     <!-- Contenido principal del documento -->
@@ -65,3 +105,4 @@
 
 </body>
 </html>
+
